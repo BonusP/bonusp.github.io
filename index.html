@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | CV</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      line-height: 1.7;
+      color: #222;
+      background: #f7f8fb;
+    }
+
+    .container {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 40px 20px 80px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 18px;
+      padding: 28px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+      margin-bottom: 24px;
+    }
+
+    .hero {
+      display: flex;
+      gap: 24px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .profile-img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #eef1f7;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 2rem;
+    }
+
+    h2 {
+      margin-top: 0;
+      font-size: 1.25rem;
+      border-bottom: 1px solid #e9edf3;
+      padding-bottom: 8px;
+    }
+
+    .subtitle {
+      color: #5c667a;
+      margin-bottom: 10px;
+    }
+
+    .links a,
+    .btn {
+      display: inline-block;
+      margin-right: 10px;
+      margin-top: 8px;
+      text-decoration: none;
+      color: white;
+      background: #2563eb;
+      padding: 10px 14px;
+      border-radius: 10px;
+      font-size: 0.95rem;
+    }
+
+    .links a.secondary {
+      background: #111827;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-bottom: 0;
+    }
+
+    .item {
+      margin-bottom: 14px;
+    }
+
+    .meta {
+      color: #6b7280;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      text-align: center;
+      color: #6b7280;
+      font-size: 0.9rem;
+      margin-top: 24px;
+    }
+
+    @media (max-width: 640px) {
+      .hero {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .profile-img {
+        width: 110px;
+        height: 110px;
+      }
+
+      h1 {
+        font-size: 1.6rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <section class="card hero">
+      <img src="profile.jpg" alt="Profile photo" class="profile-img" />
+      <div>
+        <h1>Your Name</h1>
+        <div class="subtitle">AI Researcher | Multimodal Learning | Vision-Language Models</div>
+        <p>
+          중앙대학교 AI 대학원<br />
+          Email: your_email@example.com
+        </p>
+        <div class="links">
+          <a href="cv.pdf" target="_blank">CV PDF</a>
+          <a href="https://github.com/your-github-id" target="_blank" class="secondary">GitHub</a>
+          <a href="https://scholar.google.com/" target="_blank" class="secondary">Google Scholar</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>About</h2>
+      <p>
+        안녕하세요. 저는 멀티모달 학습, Vision-Language Model, AI Security에 관심을 가지고 연구하는 대학원생입니다.
+        이 페이지는 제 연구 이력, 논문, 프로젝트, 그리고 연락처를 정리한 CV 웹페이지입니다.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Education</h2>
+      <div class="item">
+        <strong>Chung-Ang University</strong><br />
+        <span class="meta">M.S./Ph.D. Program in Artificial Intelligence</span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Research Interests</h2>
+      <ul>
+        <li>Multimodal Learning</li>
+        <li>Vision-Language Models</li>
+        <li>Adversarial Robustness and AI Security</li>
+        <li>Scientific Document Understanding</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Publications</h2>
+      <ul>
+        <li>Paper title 1, Conference/Journal, Year</li>
+        <li>Paper title 2, Conference/Journal, Year</li>
+        <li>Paper title 3, Conference/Journal, Year</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Projects</h2>
+      <ul>
+        <li>Project 1 – 한 줄 설명</li>
+        <li>Project 2 – 한 줄 설명</li>
+        <li>Project 3 – 한 줄 설명</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Awards & Activities</h2>
+      <ul>
+        <li>Award or Scholarship, Year</li>
+        <li>Patent / Competition / Academic Activity</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Contact</h2>
+      <p>
+        Email: your_email@example.com<br />
+        GitHub: your-github-id<br />
+        Scholar: your scholar link
+      </p>
+    </section>
+
+    <footer>
+      © 2026 Your Name
+    </footer>
+  </div>
+</body>
+</html>
